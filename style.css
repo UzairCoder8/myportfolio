@@ -1,76 +1,168 @@
-*{
-    margin: 0; padding: 0; box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
 }
 :root {
     --sect-color: #dff3ff;
     --sec-sect-color: #FFFFFF;
     --btn-color: #457B9D;
 }
+
+a {
+    text-decoration: none;
+}
+
 nav {
     background-color: var(--sect-color);
 }
+
 #topHero {
     background-color: #d4efff;
 }
+
 .btn1 {
-background-color: var(--btn-color);
-color: #ecebeb;
+    background-color: var(--btn-color);
+    color: #ecebeb;
 }
+
 .btn2 {
     background-color: #d0dde3;
     color: #457B9D;
-    }
-    .hero-box{
-        width: 400px;
-        height: 300px;
-        background-color: var(--btn-color);
-        border-radius: 20px;
-    }
+}
+
+.hero-box {
+    width: 400px;
+    height: 300px;
+    background-color: var(--btn-color);
+    border-radius: 20px;
+}
+
 .hero-box img {
     max-width: 68%;
     z-index: 10;
 }
-.coding-para{
-color: var(--btn-color);
-font-weight: 700;
-font-size: 25px;
-}
-.coding-head{
-    font-weight: 700;
-}
-.about-left-sect img{
-max-width: 70%;
-}
-.about-desc{
-    color: #455A64;
-}
-#skills{
-    background-color: var(--sect-color);
-    margin-bottom: 100px;
-}
-.html {
-max-width: 100px;
-}
-.css{
-    max-width: 100px;
-}
-.bootst{
-    max-width: 100px;
-}
-.tailwi{
-    max-width: 120px;
-}
-.php{
-    max-width: 140px;
-}
-.larv{
-    max-width: 100px;
-}
-.skill-para{
+
+.coding-para {
     color: var(--btn-color);
     font-weight: 700;
     font-size: 25px;
 }
-.skill-heading{
+
+.coding-head {
     font-weight: 700;
+}
+
+.about-left-sect img {
+    max-width: 70%;
+}
+
+.about-desc {
+    color: #455A64;
+}
+
+#skills {
+    background-color: var(--sect-color);
+    margin-bottom: 100px;
+}
+
+.html {
+    max-width: 100px;
+}
+
+.css {
+    max-width: 100px;
+}
+
+.bootst {
+    max-width: 100px;
+}
+
+.tailwi {
+    max-width: 120px;
+}
+
+.php {
+    max-width: 140px;
+}
+
+.larv {
+    max-width: 100px;
+}
+
+.skill-para {
+    color: var(--btn-color);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.skill-heading {
+    font-weight: 700;
+}
+
+.live {
+    color: #457B9D;
+}
+
+#bottom-sect {
+    margin-bottom: 100px;
+}
+
+.bottom-head {
+    color: #457B9D;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.bottom-heading {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-icon {
+    color: #457B9D;
+}
+
+.footer-con {
+    color: #457B9D;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+#footer {
+    background-color: var(--sect-color);
+}
+
+.coperight {
+    margin-bottom: 0;
+}
+
+.gmail {
+    margin-bottom: 0;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 422px) {
+    .hero-box {
+        width: 100%;
+        height: 300px;
+    }
+
+    .hero-box img {
+        width: 100%;
+        height: 350px;
+    }
 }
