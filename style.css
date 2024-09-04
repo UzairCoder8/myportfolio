@@ -163,6 +163,9 @@ nav {
 .gmail {
     margin-bottom: 0;
 }
+.row div img:hover{
+cursor: pointer;
+}
 
 /* responsive */
 
